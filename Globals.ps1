@@ -82,6 +82,13 @@ $global:checkProfileRights = $lang.checkProfileRights
 $global:FolderPathInputBoxTitle = $lang.FolderPathInputBoxTitle
 $global:FolderPathInputBoxMsg = $lang.FolderPathInputBoxMsg
 $global:ShowFolderRights = $lang.ShowFolderRights
+$global:openPSRS = $lang.openPSRS
+$global:starting = $lang.starting
+$global:PSRnotEnabled = $lang.PSRnotEnabled
+$global:RunRemoteCMD = $lang.RunRemoteCMD
+$global:EnterCommand = $lang.EnterCommand
+$global:RemoteCommandSent = $lang.RemoteCommandSent
+$global:ComputerOfflineOrWrong = $lang:ComputerOfflineOrWrong
 # Languagefiles Language.psd1 in Folders, e.g. \de-DE\ with Variables and Strings
 
 ############################################################################################

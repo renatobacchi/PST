@@ -4186,7 +4186,7 @@ NRBY0ohXmqH673WJsmdWsFBoJDPNSr5ACPEHYgQRrGo3yQQAAAAASUVORK5CYII=</Binary>
       <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
 MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
 ACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkD
-AAAADwMAAACyFgAAAk1TRnQBSQFMAgEBCwEAASABAQEgAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2
+AAAADwMAAACyFgAAAk1TRnQBSQFMAgEBCwEAASgBAQEoAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2
 AQQGAAE2AQQCAAEoAwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYAB
 AAKAAgADwAEAAcAB3AHAAQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEA
 AykBAANVAQADTQEAA0IBAAM5AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8B
@@ -4612,7 +4612,7 @@ $button_folderrights_Click = {
 ############################################################################################
 $button_rdp_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "$ComputerName - Remote Desktop Connection"
+	Add-RichTextBoxTitle -text "$ComputerName - RDP"
 	$command = "mstsc"
 	$argument = "/v:$computername /admin"
 	Start-Process $command $argument
@@ -4620,35 +4620,34 @@ $button_rdp_Click = {
 ############################################################################################
 $button_psremote_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "$ComputerName - Open a PowerShell Remoting Session"
+	Add-RichTextBoxTitle -text "$ComputerName - $openPSRS"
 	if (Test-PSRemoting -ComputerName $ComputerName)
 	{
-		Add-RichTextBox -text "$ComputerName - Powershell Remote Session"
+		Add-RichTextBox -text "$ComputerName - $starting $openPSRS"
 		Start-Process powershell.exe -ArgumentList "-noexit -command Enter-PSSession -ComputerName $ComputerName"
 	}
 	else
 	{
-		Add-RichTextBoxWarn -text "$ComputerName - PsRemoting does not seem to be enabled"
-		Show-MsgBox -Title "PSRemoting" -BoxType "OKOnly" -Icon "Exclamation" -Prompt "PSRemoting does not seem to be enabled"
+		Add-RichTextBoxWarn -text "$ComputerName - $PSRnotEnabled"
 	}
 }
 ############################################################################################
 $button_cmd_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "$ComputerName - Run a Remote Command"
+	Add-RichTextBoxTitle -text "$ComputerName - $RunRemoteCMD"
 	if (Test-Connection $ComputerName -Count 1 -Quiet)
 	{
-		$RemoteCommand = Show-Inputbox -message "Enter a command to run" -title "$Computername - Run-RemoteCMD" -default "ipconfig /all"
+		$RemoteCommand = Show-Inputbox -message "$EnterCommand" -title "$Computername - Run-RemoteCMD" -default "ipconfig /all"
 		if ($RemoteCommand -ne "")
 		{
 			Run-RemoteCMD -ComputerName $ComputerName -Command $RemoteCommand
-			Add-RichTextBox -text "$ComputerName - Remote Command Sent!"
+			Add-RichTextBox -text "$ComputerName - $RemoteCommandSent"
 		}
 	}
 	else
 	{
-		Add-RichTextBoxWarn -text "Computer offline or wrong Computername"
-		Show-MsgBox -Prompt "Computer offline or wrong Computernamee" -BoxType "OKOnly" -Title "Computer offline!" -Icon "Exclamation"
+		Add-RichTextBoxWarn -text "$ComputerOfflineOrWrong"
+		Show-MsgBox -Prompt "$ComputerOfflineOrWrong" -BoxType "OKOnly" -Title "Computer offline!" -Icon "Exclamation"
 	}
 }
 ############################################################################################
@@ -4668,14 +4667,14 @@ $Button_gpupdate_Click = {
 ############################################################################################
 $button_ipconfig_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "$ComputerName - Network - Configuration"
+	Add-RichTextBoxTitle -text "$ComputerName - Network - Config"
 	$result = Get-IP -ComputerName $ComputerName | Format-List Name, IP4, IP4Subnet, DefaultGWY, MacAddress, DNSServer | out-string -Width $richtextbox_output.Width
 	Add-RichTextBox "$result`n"
 }
 ############################################################################################
 $button_DNScheck_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "$ComputerName - Network - Configuration"
+	Add-RichTextBoxTitle -text "$ComputerName - DNS - Configuration"
 	$result = nslookup $ComputerName 10.40.254.100 | out-string -Width $richtextbox_output.Width
 	Add-RichTextBox "DNS1 - $result"
 	$result = nslookup $ComputerName 10.40.254.101 | out-string -Width $richtextbox_output.Width
