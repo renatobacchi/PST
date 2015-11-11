@@ -1,0 +1,15 @@
+﻿<ProjectState>
+  <Version>1.0</Version>
+  <FileID>cfba2739-092a-48d5-9ae9-9fc3160d1664</FileID>
+  <OpenFolders>
+    <Folder>de-DE</Folder>
+    <Folder>en-EN</Folder>
+  </OpenFolders>
+  <OpenFiles>
+    <File>MainForm.psf</File>
+    <File>Globals.ps1</File>
+    <File>de-DE\Language.psd1</File>
+    <File>en-EN\Language.psd1</File>
+    <File>About.psf</File>
+  </OpenFiles>
+</ProjectState>

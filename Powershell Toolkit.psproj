@@ -1,0 +1,19 @@
+﻿<Project>
+  <Version>1.1</Version>
+  <FileID>cfba2739-092a-48d5-9ae9-9fc3160d1664</FileID>
+  <ProjectType>0</ProjectType>
+  <Folders>
+    <Folder>de-DE</Folder>
+    <Folder>en-EN</Folder>
+  </Folders>
+  <Files>
+    <File ReferenceName="" Build="0">Startup.pss</File>
+    <File ReferenceName="Call-MainForm_psf" Build="0">MainForm.psf</File>
+    <File ReferenceName="Call-Global_ps1" Build="0" CommandExtension="True">Globals.ps1</File>
+    <File ReferenceName="Call-About_psf" Build="0">About.psf</File>
+    <File ReferenceName="Call-Options_psf" Build="0">Options.psf</File>
+    <File ReferenceName="Call-Taskmanager_psf" Build="0">Taskmanager.psf</File>
+    <File ReferenceName="" Build="1">de-DE\Language.psd1</File>
+    <File ReferenceName="" Build="1">en-EN\Language.psd1</File>
+  </Files>
+</Project>
