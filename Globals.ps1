@@ -12,8 +12,8 @@ Import-Module ActiveDirectory
 
 # PowershellToolkit information
 $ApplicationName = "Powershell Toolkit"
-$ApplicationVersion = "2.0.0.4.1030.1131"
-$ApplicationLastUpdate = "30.10.2015"
+$ApplicationVersion = "2.0.0.4.1111.1630"
+$ApplicationLastUpdate = "11.11.2015"
 
 # Author Information
 $AuthorName = "Renato Bacchi"

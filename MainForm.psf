@@ -1676,10 +1676,10 @@ bGHQhy6X6wdWpYXn+XoW90mi1KPT63KszZwoijrm/PlSqUT/AZlG1CwNkNzyAAAAAElFTkSuQmCC</Bi
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage2" children="Controls">
         <Property name="ImageIndex">1</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage2</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">1</Property>
         <Property name="Text">Computer &amp; OS</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -2267,10 +2267,10 @@ mClab/PQkhP4F0yfubDOfME+7WohWlQCNyug5wgh/H8CeL8A7J+jNx2aU/gAAAAASUVORK5CYII=</Bi
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage3" children="Controls">
         <Property name="ImageIndex">2</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage3</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">2</Property>
         <Property name="Text">Network</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -2398,10 +2398,10 @@ AqxBR+NLAYUlAAAAAElFTkSuQmCC</Binary>
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage4" children="Controls">
         <Property name="ImageIndex">3</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage4</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">3</Property>
         <Property name="Text">Processes</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -2421,11 +2421,11 @@ AqxBR+NLAYUlAAAAAElFTkSuQmCC</Binary>
           <Property name="Series">
             <Item type="System.Windows.Forms.DataVisualization.Charting.Series, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
           </Property>
-          <Property name="Size">579, 84</Property>
+          <Property name="Size">579, 85</Property>
           <Property name="TabIndex">10</Property>
           <Property name="Text">CPU + RAM</Property>
           <Serialize>
-            <Chart Palette="Bright" Size="579, 84" BorderlineDashStyle="Dot">
+            <Chart Palette="Bright" Size="579, 85" BorderlineDashStyle="Dot">
               <Series>
                 <Series Name="Series1" Legend="Legend1" ChartType="Bar" ChartArea="ChartArea1" IsVisibleInLegend="False" />
               </Series>
@@ -2804,10 +2804,10 @@ vWLTEaDnfwAAAABJRU5ErkJggg==</Binary>
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage5" children="Controls">
         <Property name="ImageIndex">4</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage5</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">4</Property>
         <Property name="Text">Services</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -3225,10 +3225,10 @@ T7aEryfowLLbZ0EpaO8AnQpT/s8Cp0kAAAAASUVORK5CYII=</Binary>
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage6" children="Controls">
         <Property name="ImageIndex">5</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage6</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">5</Property>
         <Property name="Text">Harddisk</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -3321,10 +3321,10 @@ vwEsTAjkI+DtQgAAAABJRU5ErkJggg==</Binary>
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage8" children="Controls">
         <Property name="ImageIndex">6</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage8</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">7</Property>
         <Property name="Text">Eventlog</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -3457,11 +3457,11 @@ XBX8OHtvGrq2hyzP805YLDy0jU0J+h3ria/8nxX1vwFsOngCQXU3WAAAAABJRU5ErkJggg==</Binary
         <Property name="Font">Microsoft Sans Serif, 8.25pt</Property>
         <Property name="ForeColor">ControlText</Property>
         <Property name="ImageIndex">7</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Margin">0, 0, 0, 0</Property>
         <Property name="Name">tabpage10</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">9</Property>
         <Property name="Text">SCCM</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -3569,10 +3569,10 @@ AAAASUVORK5CYII=</Binary>
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage11" children="Controls">
         <Property name="ImageIndex">10</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage11</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">12</Property>
         <Property name="Text">Search</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -3616,10 +3616,10 @@ ECL/Ak6IIfRrg51ZAAAAAElFTkSuQmCC</Binary>
       </Object>
       <Object type="System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="tabpage_debug" children="Controls">
         <Property name="ImageIndex">8</Property>
-        <Property name="Location">4, 23</Property>
+        <Property name="Location">4, 22</Property>
         <Property name="Name">tabpage_debug</Property>
         <Property name="Padding">3, 3, 3, 3</Property>
-        <Property name="Size">1264, 90</Property>
+        <Property name="Size">1264, 91</Property>
         <Property name="TabIndex">11</Property>
         <Property name="Text">Debug</Property>
         <Property name="UseVisualStyleBackColor">True</Property>
@@ -4083,18 +4083,18 @@ zzUrMHmIMUVilJjlaSyy7FHWwe4qB4ceONh79yPhR87TLOt18rpKr8ldjM0KZGyWzPvfl+cYq9cV
 NRBY0ohXmqH673WJsmdWsFBoJDPNSr5ACPEHYgQRrGo3yQQAAAAASUVORK5CYII=</Binary>
     </Property>
     <Property name="Name">toolsToolStripMenuItem</Property>
-    <Property name="Size">152, 22</Property>
+    <Property name="Size">124, 22</Property>
     <Property name="Text">Tools</Property>
   </Object>
   <Object type="System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="aDExplorerToolStripMenuItem">
     <Property name="Name">aDExplorerToolStripMenuItem</Property>
-    <Property name="Size">152, 22</Property>
+    <Property name="Size">139, 22</Property>
     <Property name="Text">ADExplorer</Property>
     <Event name="Click">aDExplorerToolStripMenuItem_Click</Event>
   </Object>
   <Object type="System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="procexpToolStripMenuItem">
     <Property name="Name">procexpToolStripMenuItem</Property>
-    <Property name="Size">152, 22</Property>
+    <Property name="Size">139, 22</Property>
     <Property name="Text">Procexp</Property>
     <Event name="Click">procexpToolStripMenuItem_Click</Event>
   </Object>
@@ -4106,13 +4106,13 @@ NRBY0ohXmqH673WJsmdWsFBoJDPNSr5ACPEHYgQRrGo3yQQAAAAASUVORK5CYII=</Binary>
   </Object>
   <Object type="System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="nirLauncherToolStripMenuItem1">
     <Property name="Name">nirLauncherToolStripMenuItem1</Property>
-    <Property name="Size">152, 22</Property>
+    <Property name="Size">139, 22</Property>
     <Property name="Text">NirLauncher</Property>
     <Event name="Click">nirLauncherToolStripMenuItem1_Click</Event>
   </Object>
   <Object type="System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="optionsToolStripMenuItem">
     <Property name="Name">optionsToolStripMenuItem</Property>
-    <Property name="Size">152, 22</Property>
+    <Property name="Size">124, 22</Property>
     <Property name="Text">Optionen</Property>
     <Event name="Click">optionsToolStripMenuItem_Click</Event>
   </Object>
@@ -4186,7 +4186,7 @@ NRBY0ohXmqH673WJsmdWsFBoJDPNSr5ACPEHYgQRrGo3yQQAAAAASUVORK5CYII=</Binary>
       <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
 MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
 ACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkD
-AAAADwMAAACyFgAAAk1TRnQBSQFMAgEBCwEAARgBAQEYAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2
+AAAADwMAAACyFgAAAk1TRnQBSQFMAgEBCwEAASABAQEgAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2
 AQQGAAE2AQQCAAEoAwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYAB
 AAKAAgADwAEAAcAB3AHAAQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEA
 AykBAANVAQADTQEAA0IBAAM5AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8B
@@ -5271,42 +5271,42 @@ $button_checkWLAN_Click = {
 ############################################################################################
 $button_PCGroups_Click = {
 	Add-RichTextBoxTitle -text "Transferring computer groups. You need domain admin rights!"
-	$ComputerOLD = Show-InputBox -title "Quell-Computer eingeben" -message "Bitte den Quell-Computernamen eingeben"
+	$ComputerOLD = Show-InputBox -title "Enter Source Computer" -message "Please enter source computer"
 	$TestComputerOLD = Get-ADComputer $ComputerOLD
 	if ($TestComputerOLD -eq $null)
 	{
-		Show-MsgBox -Title "Fehler" -BoxType "OKOnly" -Prompt "Der angegebene Computer wurde nicht im AD gefunden!" -Icon "Exclamation"
-		Add-RichTextBoxWarn -text "Computer nicht gefunden!"
+		Show-MsgBox -Title "Error" -BoxType "OKOnly" -Prompt "Did not find the computer!" -Icon "Exclamation"
+		Add-RichTextBoxWarn -text "Computer not found!"
 	}
 	else
 	{
-		Add-RichTextBox -text "Quell-Computer $ComputerOLD"
-		$ComputerNEW = Show-InputBox -title "Neuen Computer eingeben" -message "Bitte den neuen Computernamen eingeben"
+		Add-RichTextBox -text "Source-Computer $ComputerOLD"
+		$ComputerNEW = Show-InputBox -title "Enter destination Computer" -message "Please enter the destiantion computer."
 		$TestComputerNEW = Get-QADObject $ComputerNEW
 		if ($TestComputerNEW -eq $NULL)
 		{
-			Show-MsgBox -Title "Fehler" -BoxType "OKOnly" -Prompt "Der angegebene Computer wurde nicht im AD gefunden!" -Icon "Exclamation"
-			Add-RichTextBoxWarn -text "Computer nicht gefunden!"
+			Show-MsgBox -Title "Error" -BoxType "OKOnly" -Prompt "Did not find the computer!" -Icon "Exclamation"
+			Add-RichTextBoxWarn -text "Computer not found!"
 		}
 		else
 		{
 			if ($ComputerNEW -eq $ComputerOLD)
 			{
-				Show-MsgBox -Title "Fehler" -BoxType "OKOnly" -Prompt "Zwei identische Computernamen eingegeben" -Icon "Exclamation"
-				Add-RichTextBoxWarn -text "Zwei identische Computernamen eingegeben!"
+				Show-MsgBox -Title "Error" -BoxType "OKOnly" -Prompt "You have entered two identical computernames" -Icon "Exclamation"
+				Add-RichTextBoxWarn -text "Two identical Computernames!"
 			}
 			else
 			{
-				Add-RichTextBox -text "Neuer Computer $ComputerNew"
-				$CheckOK = Show-MsgBox -Title "Übertragung" -Prompt "Wollen Sie die Übertragung der Gruppen von $ComputerOLD nach $ComputerNEW durchfürhen?" -BoxType "YESNO" -Icon "Exclamation"
+				Add-RichTextBox -text "Destination computer $ComputerNew"
+				$CheckOK = Show-MsgBox -Title "Transferring" -Prompt "Do you want to start the group transfer from $ComputerOLD to $ComputerNEW ?" -BoxType "YESNO" -Icon "Exclamation"
 				if ($CheckOK -eq "YES")
 				{
 					#Move AD Groups von OLD to New
-					Add-RichTextBox -text "Übertragung der Gruppen wird ausgeführt..."
+					Add-RichTextBox -text "Transferring computergroups..."
 					#Auslesen der Computergruppen
 					#$ComputerGroups = Get-QADComputer $ComputerOLD -Properties Memberof | Select-Object -Expand memberof | Out-String
 					Get-QADComputer $ComputerOLD -Properties Memberof | Select-Object -Expand memberof | ForEach-Object { Add-QADGroupMember -Identity $ComputerNEW -Members $_.Memberof }
-					Add-RichTextBox -text "Aktuelle Computergruppen der Station $ComputerOLD`n$Computergroups"
+					Add-RichTextBox -text "Showing computergroups of $ComputerOLD`n$Computergroups"
 					#Add-QADGroupMember "Group" -Member "Computer"
 					$ComputerOLD = $ComputerOLD + "$"
 					$ComputerNEW2 = $ComputerNEW + "$"
@@ -5314,7 +5314,7 @@ $button_PCGroups_Click = {
 					$Groups | foreach{
 						if ($_.name -ne "Domain Computers")
 						{
-							Add-RichTextBox -text "$ComputerNew wird der Gruppe $_ zugewiesen..."
+							Add-RichTextBox -text "$ComputerNew adding to group $_ ..."
 							try { Add-QADGroupMember $_ -Member $ComputerNEW2 }
 							catch [Exception]{
 								Add-RichTextBoxWarn $_.Exception.Message
@@ -5324,7 +5324,7 @@ $button_PCGroups_Click = {
 				}
 				if ($CheckOK -eq "NO")
 				{
-					Add-RichTextBoxWarn -text "Übertragung wurde abgebrochen."
+					Add-RichTextBoxWarn -text "Aborted."
 				}
 			}
 		}
@@ -5356,7 +5356,7 @@ $button_openc_Click = {
 ############################################################################################
 $button_hosts_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "Anzeigen des Hostsfile von $Computername"
+	Add-RichTextBoxTitle -text "Showing hostsfile of $Computername"
 	$Hostsfile = Get-Content "\\$computername\c$\windows\system32\drivers\etc\hosts" | Out-String -Width $richtextbox_output.Width
 	Add-RichTextBox -text $Hostsfile
 }
@@ -5583,10 +5583,10 @@ $button_logoff_user_Click = {
 ############################################################################################
 $button_deleteGPO_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "Löschen der Lokalen Grouppolicy des Computers $Computername"
+	Add-RichTextBoxTitle -text "Deleting local gpo of the computer $Computername"
 	Remove-Item "\\$ComputerName\c$\windows\system32\Grouppolicy" -Force -Recurse
 	Remove-Item "\\$ComputerName\c$\windows\system32\grouppolicyusers" -Force -Recurse
-	Add-RichTextBox -text "Ordner Grouppolicy und GrouppolicyUsers wurden gelöscht"
+	Add-RichTextBox -text "Deleted folder grouppolicy and grouppolicyusers."
 }
 ############################################################################################
 $button_cpuram_Click = {
@@ -5610,7 +5610,7 @@ $button_regedit_Click = {
 ############################################################################################
 $button_nbbattery_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -text "Status des Akkus von $Computername ermitteln..."
+	Add-RichTextBoxTitle -text "Getting batterystate of $Computername ..."
 	$OnBattery = Get-WmiObject Win32_Battery -ComputerName $ComputerName | Select-Object -ExpandProperty BatteryStatus
 	if ($OnBattery -eq 1)
 	{
@@ -5623,15 +5623,15 @@ $button_nbbattery_Click = {
 		$BatteryConnected = "false"
 	}
 	$BatteryState = Get-WmiObject Win32_Battery -ComputerName $ComputerName | Select-Object @{ N = 'Remaining Charge %'; E = { $_.EstimatedChargeRemaining } }, Status | fl | Out-String
-	Add-RichTextBox -text "Am Strom: $Cableconnected`nAm Akku: $BatteryConnected `n$BatteryState"
+	Add-RichTextBox -text "On cable: $Cableconnected`nOn battery: $BatteryConnected `n$BatteryState"
 }
 ############################################################################################
 $buttonTSHanging_Click = {
 	Get-ComputerTxtBox
-	Add-RichTextBoxTitle -Text "Hängende Tasksequenz removen"
+	Add-RichTextBoxTitle -Text "Remove hanging tasksequence"
 	$Out = Get-WmiObject -computername "$ComputerName" -Namespace root\ccm\SoftMgmtAgent -Class CCM_TSExecutionRequest -Filter "State = 'Completed' And CompletionState = 'Failure'"
 	$Out.delete()
-	Add-RichTextBox -text "Erledigt."
+	Add-RichTextBox -text "Done."
 }
 ############################################################################################
 $button_search_Click = {
@@ -5656,7 +5656,7 @@ $buttonFixWMI_Click = {
 		WinMgmt /standalonehost
 		WinMgmt /resetrepository
 	}
-	Add-RichTextBox -text "WMI auf PC $ComputerName zurückgesetzt. Bitte neu starten."
+	Add-RichTextBox -text "WMI on Computer $ComputerName reset. Please reboot."
 }
 ############################################################################################
 #endregion buttons
@@ -5761,7 +5761,7 @@ $richtextbox_output_TextChanged = {
 $toolstrip_user_status_Click = {
 	Get-ComputerTxtBox
 	Add-RichTextBoxTitle -text "$ComputerName - Profile folder"
-	# OS Version bestimmen (Bei 8/8.1 andere Abfrage für User)
+	# Getting OS Version
 	$OS = get-wmiobject -class win32_operatingsystem -ComputerName $ComputerName | select-object -expand Version
 	$Username = (get-wmiobject -class win32_computersystem -ComputerName $ComputerName | select-object -expand username).Split("\")[1]
 	Add-RichTextBox -text $Splitversion
@@ -5780,7 +5780,7 @@ $toolstrip_user_status_Click = {
 $toolstrip_home_status_Click = {
 	Get-ComputerTxtBox
 	Add-RichTextBoxTitle -text "$ComputerName - Profile folder"
-	# OS Version bestimmen (Bei 8/8.1 andere Abfrage für User)
+	# Getting OS Version
 	$OS = get-wmiobject -class win32_operatingsystem -ComputerName $ComputerName | select-object -expand Version
 	$Username = (get-wmiobject -class win32_computersystem -ComputerName $ComputerName | select-object -expand username).Split("\")[1]
 	Add-RichTextBox -text $Splitversion
@@ -5874,9 +5874,6 @@ $MainForm_SizeChanged = {
 #endregion Mainform
 #------------------------------------------------------------------------------------------#
 ]]></Code>
-  <Bookmarks />
-  <BreakPoints />
-  <TracePoints />
   <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
