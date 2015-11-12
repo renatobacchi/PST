@@ -88,7 +88,10 @@ $global:PSRnotEnabled = $lang.PSRnotEnabled
 $global:RunRemoteCMD = $lang.RunRemoteCMD
 $global:EnterCommand = $lang.EnterCommand
 $global:RemoteCommandSent = $lang.RemoteCommandSent
-$global:ComputerOfflineOrWrong = $lang:ComputerOfflineOrWrong
+$global:ComputerOfflineOrWrong = $lang.ComputerOfflineOrWrong
+$global:CheckConn = $lang.CheckConn
+$global:NetConf = $lang.NetConf
+$global:DnsConf = $lang.DnsConf
 # Languagefiles Language.psd1 in Folders, e.g. \de-DE\ with Variables and Strings
 
 ############################################################################################

@@ -34,4 +34,7 @@ RunRemoteCMD = Run a Remote Command
 EnterCommand = Enter a command to run
 RemoteCommandSent = Remote Command Sent!
 ComputerOfflineOrWrong = Computer offline or wrong Computername
+CheckConn = Check Connectivity and Basic Properties
+NetConf = Network - Config
+DNSConf = DNS - Configuration
 '@

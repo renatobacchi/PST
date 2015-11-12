@@ -34,4 +34,7 @@ RunRemoteCMD = Starte einen Remote-Befehl
 EnterCommand = Befehl eingeben
 RemoteCommandSent = Befehl geschickt!
 ComputerOfflineOrWrong = Computer offline oder falscher Computername
+CheckConn = Teste die Verbindung
+NetConf = Netzwerkkonfiguration
+DnsConf = DNS - Configuration
 '@
