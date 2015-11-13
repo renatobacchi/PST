@@ -911,20 +911,20 @@ Francios-Xavier Cat -&gt; www.lazywinadmin.com</Property>
   </Object>
   <Code><![CDATA[$form1_Load={
 	if(Test-Path "C:\Program Files (x86)\Sysinternals" -ErrorAction 'SilentlyContinue') {
-		$label13.Text = "Installiert"
+		$label13.Text = "Installed"
 		$label13.ForeColor = "Green"
 	}
 	else {
-		$label13.Text = "Nicht Installiert"
+		$label13.Text = "Not Installed"
 		$label13.ForeColor = "Red"
 	}	
 	
 	if(Test-Path "C:\Program Files\Nirsoft\NirLauncher.exe" -ErrorAction 'SilentlyContinue') {
-		$label16.Text = "Installiert"
+		$label16.Text = "Installed"
 		$label16.ForeColor = "Green"
 	}
 	else {
-		$label16.Text = "Nicht Installiert"
+		$label16.Text = "Not Installed"
 		$label16.ForeColor = "Red"			
 	}
 }

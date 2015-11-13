@@ -8,8 +8,6 @@
   <OpenFiles>
     <File>MainForm.psf</File>
     <File>Globals.ps1</File>
-    <File>de-DE\Language.psd1</File>
-    <File>en-EN\Language.psd1</File>
-    <File>About.psf</File>
+    <File>Options.psf</File>
   </OpenFiles>
 </ProjectState>

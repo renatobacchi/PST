@@ -12,15 +12,13 @@ Import-Module ActiveDirectory
 
 # PowershellToolkit information
 $ApplicationName = "Powershell Toolkit"
-$ApplicationVersion = "2.0.0.4.1111.1630"
-$ApplicationLastUpdate = "11.11.2015"
+$ApplicationVersion = "3.0.0.0"
+$ApplicationLastUpdate = "13.11.2015"
 
 # Author Information
 $AuthorName = "Renato Bacchi"
-# $AuthorEmail 		= "admin@renatobacchi.ch"
-# $AuthorWWW			= "http://www.renatobacchi.ch"
-$AutorEmail = "helpdesk@ur.ch"
-$AuthorWWW = ""
+$AuthorEmail 		= "admin@renatobacchi.ch"
+$AuthorWWW			= "http://www.renatobacchi.ch"
 
 # Text to show in the Status Bar when the form load
 $StatusBarStartUp = "$ApplicationName - $ApplicationVersion - (c) Renato Bacchi - $AuthorWWW"
@@ -47,18 +45,15 @@ else { $global:Programfiles = "C:\Program Files" }
 $cmd = "cmd.exe"
 
 # Folder / Ordner
-$global:Profilefolder = "\\na-afi01\profile$\"
-$global:Homefolder = "\\kt.ur.ch\kt\home\"
+$global:Profilefolder = ""
+$global:Homefolder = ""
 $global:Outfile = $pwd
 $global:Confpath = $env:APPDATA += "\Powershell Toolkit\"
-#	$global:Profilefolder ="\\server\profile$"
-#	$global:Homefolder ="\\server\home$"
 
 # SCCM
 $global:SCCMEnabled = "true"
-$global:SiteName = "V01"
-$global:SCCMServer = "srv-sccm12.kt.ur.ch"
-#	$global:SCCMServer="srv-sccm.contoso.com"
+$global:SiteName = ""
+$global:SCCMServer = ""
 $global:SCCMNameSpace = "root\sms\site_$SiteName"
 $global:CmRCViewer = "$global:Programfiles\ConfigMgr\bin\i386\CmRcViewer.exe"
 
@@ -70,28 +65,67 @@ $global:Sysinternals = "$global:Programfiles\Sysinternals"
 Import-LocalizedData -BindingVariable lang -FileName Language
 # Loading Lang-Variables because $lang.xyz does not work in AddRichtTextbox -Text if there
 # are multiple Variables, bc. those are not strings but hashtablekeys
-$global:folder = $lang.folder
-$global:existing = $lang.existing
-$global:configFolderExisting = $lang.configFolderExisting
-$global:created = $lang.created
-$global:createConfigError = $lang.createConfigError
-$global:configFrom = $lang.configFrom
-$global:loaded = $lang.loaded
+# Maybe these should be change to something like global:langfolder and so on, so the code would be more readable
+$global:ChangePasswordAtLogon = $lang.ChangePasswordAtLogon
+$global:CheckComputerGroups = $lang.CheckComputerGroups
+$global:CheckConn = $lang.CheckConn
+$global:ComputerNotFound = $lang.ComputerNotFound
+$global:ComputerOfflineOrWrong = $lang.ComputerOfflineOrWrong
+$global:Cycle1 = $lang.Cycle1
+$global:Cycle2 = $lang.Cycle2
+$global:Cycle3 = $lang.Cycle3
+$global:Cycle4 = $lang.Cycle4
+$global:Cycle5 = $lang.Cycle5
+$global:Cycle6 = $lang.Cycle6
+$global:Cycle7 = $lang.Cycle7
+$global:Cycle8 = $lang.Cycle8
+$global:Cycle9 = $lang.Cycle9
+$global:DestinationComputer = $lang.DestinationComputer
+$global:DnsConf = $lang.DnsConf
+$global:DoYouWantToTransfer = $lang.DoYouWantToTransfer
+$global:EnterCommand = $lang.EnterCommand
+$global:EnterDestinationComputer = $lang.EnterDestinationComputer
+$global:EnterPassword = $lang.EnterPassword
+$global:EnterSourceComputer = $lang.EnterSourceComputer
+$global:EnterUsername = $lang.EnterUsername
+$global:ErrorUnlocking = $lang.ErrorUnlocking
+$global:FolderPathInputBoxMsg = $lang.FolderPathInputBoxMsg
+$global:FolderPathInputBoxTitle = $lang.FolderPathInputBoxTitle
+$global:FollowingLocked = $lang.FollowingLocked
+$global:LockedUser = $lang.LockedUser
+$global:NetConf = $lang.NetConf
+$global:NoInputDetected = $lang.NoInputDetected
+$global:NoUserUnlocked = $lang.NoUserUnlocked
+$global:NoUsersLocked = $lang.NoUsersLocked
+$global:NotExistinginAD = $lang.NotExistinginAD
+$global:PSRnotEnabled = $lang.PSRnotEnabled
+$global:PasswordResetOK = $lang.PasswordResetOK
+$global:Please = $lang.Please
+$global:RegKeySet = $lang.RegKeySet
+$global:RemoteCommandSent = $lang.RemoteCommandSent
+$global:RunRemoteCMD = $lang.RunRemoteCMD
+$global:ShowFolderRights = $lang.ShowFolderRights
+$global:ShowLocalAdminsOf = $lang.ShowLocalAdminsOf
+$global:ShowingComputergroupsOf = $lang.ShowingComputergroupsOf
+$global:ShowingLastPC = $lang.ShowingLastPC
+$global:SourceComputer = $lang.SourceComputer
+$global:TransferComputerGroups = $lang.TransferComputerGroups
+$global:Transferring = $lang.Transferring
+$global:TwoIdenticalComputers = $lang.TwoIdenticalComputers
+$global:UnlockUser = $lang.UnlockUser
+$global:UnlockedOK = $lang.UnlockedOK
+$global:YouHaveEnteredTwoIdenticalComputers = $lang.YouHaveEnteredTwoIdenticalComputers
 $global:checkHomeRights = $lang.checkHomeRights
 $global:checkProfileRights = $lang.checkProfileRights
-$global:FolderPathInputBoxTitle = $lang.FolderPathInputBoxTitle
-$global:FolderPathInputBoxMsg = $lang.FolderPathInputBoxMsg
-$global:ShowFolderRights = $lang.ShowFolderRights
+$global:configFolderExisting = $lang.configFolderExisting
+$global:configFrom = $lang.configFrom
+$global:createConfigError = $lang.createConfigError
+$global:created = $lang.created
+$global:existing = $lang.existing
+$global:folder = $lang.folder
+$global:loaded = $lang.loaded
 $global:openPSRS = $lang.openPSRS
 $global:starting = $lang.starting
-$global:PSRnotEnabled = $lang.PSRnotEnabled
-$global:RunRemoteCMD = $lang.RunRemoteCMD
-$global:EnterCommand = $lang.EnterCommand
-$global:RemoteCommandSent = $lang.RemoteCommandSent
-$global:ComputerOfflineOrWrong = $lang.ComputerOfflineOrWrong
-$global:CheckConn = $lang.CheckConn
-$global:NetConf = $lang.NetConf
-$global:DnsConf = $lang.DnsConf
 # Languagefiles Language.psd1 in Folders, e.g. \de-DE\ with Variables and Strings
 
 ############################################################################################
