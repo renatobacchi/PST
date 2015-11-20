@@ -4,10 +4,14 @@
   <OpenFolders>
     <Folder>de-DE</Folder>
     <Folder>en-EN</Folder>
+    <Folder>en-US</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>MainForm.psf</File>
     <File>Globals.ps1</File>
     <File>Options.psf</File>
+    <File>de-DE\Language.psd1</File>
+    <File>en-EN\Language.psd1</File>
+    <File>en-US\Language.psd1</File>
   </OpenFiles>
 </ProjectState>
