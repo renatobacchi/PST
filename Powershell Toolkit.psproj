@@ -5,6 +5,8 @@
   <Folders>
     <Folder>de-DE</Folder>
     <Folder>en-EN</Folder>
+    <Folder>de-CH</Folder>
+    <Folder>en-US</Folder>
   </Folders>
   <Files>
     <File ReferenceName="" Build="0">Startup.pss</File>
@@ -15,5 +17,7 @@
     <File ReferenceName="Call-Taskmanager_psf" Build="0">Taskmanager.psf</File>
     <File ReferenceName="" Build="1">de-DE\Language.psd1</File>
     <File ReferenceName="" Build="1">en-EN\Language.psd1</File>
+    <File ReferenceName="" Build="1">de-CH\Language.psd1</File>
+    <File ReferenceName="" Build="1">en-US\Language.psd1</File>
   </Files>
 </Project>

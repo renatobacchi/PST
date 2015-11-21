@@ -1,4 +1,4 @@
-#Language en-En
+#Language en-US
 # Here all Strings are defined for English
 ConvertFrom-StringData @'
 button_folderrights = Folder Permissions

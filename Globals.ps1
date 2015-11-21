@@ -5,10 +5,10 @@
 ############################################################################################
 
 # Snapins
-Add-PSSnapin Quest.ActiveRoles.ADManagement
-Import-module grouppolicy
-Import-Module CimCmdlets
-Import-Module ActiveDirectory
+Add-PSSnapin Quest.ActiveRoles.ADManagement -ErrorAction SilentlyContinue
+Import-module grouppolicy -ErrorAction Continue
+Import-Module CimCmdlets -ErrorAction Continue
+Import-Module ActiveDirectory -ErrorAction Continue
 
 # PowershellToolkit information
 $ApplicationName = "Powershell Toolkit"
@@ -61,8 +61,6 @@ $global:CmRCViewer = "$global:Programfiles\ConfigMgr\bin\i386\CmRcViewer.exe"
 $global:Nirlauncher = "$global:Programfiles\Nirsoft"
 $global:Sysinternals = "$global:Programfiles\Sysinternals"
 
-# Language / Sprache
-Import-LocalizedData -BindingVariable lang -FileName Language
 # Loading Lang-Variables because $lang.xyz does not work in AddRichtTextbox -Text if there
 # are multiple Variables, bc. those are not strings but hashtablekeys
 # Maybe these should be change to something like global:langfolder and so on, so the code would be more readable
