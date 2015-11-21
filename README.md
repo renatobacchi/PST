@@ -9,6 +9,8 @@ A good year later, I changed alot in it. That's the version you see now.
 
 You will need Quest.ActiveRoles.ADManagement Snap-In to use this tool. It can be downloaded here: https://software.dell.com/register/71110/
 
+Then you will need to place the appropriate culture folder in the same directory as the .exe
+
 If anyone has ideas, input or wants to help you are very welcome. ATM I programm this all by myself, and I am not even good at
 programming. You will see this if you look at the code :-)
 
