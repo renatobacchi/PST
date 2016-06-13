@@ -4427,7 +4427,7 @@ $OnLoadFormEvent = {
 	# Set Variable for Computername		
 	$textbox_computername.Text = $env:COMPUTERNAME
 	
-	# Language / Sprache		
+	# Language		
 	$Culture = Get-Culture
 	$CultureOK = Test-Path -Path $PWD/$culture
 	# Set English as Culture if Culture is not found
