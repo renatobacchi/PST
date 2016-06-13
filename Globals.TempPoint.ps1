@@ -12,13 +12,13 @@ Import-Module ActiveDirectory -ErrorAction Continue
 
 # PowershellToolkit information
 $ApplicationName = "Powershell Toolkit"
-$ApplicationVersion = "3.0.0.2"
-$ApplicationLastUpdate = "13.06.2016"
+$ApplicationVersion = "3.0.0.1"
+$ApplicationLastUpdate = "17.11.2015"
 
 # Author Information
 $AuthorName = "Renato Bacchi"
-$AuthorEmail = "admin@renatobacchi.ch"
-$AuthorWWW = "http://www.renatobacchi.ch"
+$AuthorEmail 		= "admin@renatobacchi.ch"
+$AuthorWWW			= "http://www.renatobacchi.ch"
 
 # Text to show in the Status Bar when the form load
 $StatusBarStartUp = "$ApplicationName - $ApplicationVersion - (c) Renato Bacchi - $AuthorWWW"
