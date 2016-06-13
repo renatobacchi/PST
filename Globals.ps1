@@ -11,17 +11,16 @@ Import-Module CimCmdlets -ErrorAction Continue
 Import-Module ActiveDirectory -ErrorAction Continue
 
 # PowershellToolkit information
-$ApplicationName = "Powershell Toolkit"
+$ApplicationName = "LAFIT"
 $ApplicationVersion = "3.0.0.2"
 $ApplicationLastUpdate = "13.06.2016"
 
 # Author Information
 $AuthorName = "Renato Bacchi"
-$AuthorEmail = "admin@renatobacchi.ch"
-$AuthorWWW = "http://www.renatobacchi.ch"
+$AuthorEmail = "renato.bacchi@ur.ch"
 
 # Text to show in the Status Bar when the form load
-$StatusBarStartUp = "$ApplicationName - $ApplicationVersion - (c) Renato Bacchi - $AuthorWWW"
+$StatusBarStartUp = "$ApplicationName - $ApplicationVersion - (c) Renato Bacchi"
 
 # Title of the MainForm / Mainform Titel
 $domain = $env:userdomain.ToUpper()
@@ -45,15 +44,15 @@ else { $global:Programfiles = "C:\Program Files" }
 $cmd = "cmd.exe"
 
 # Folder / Ordner
-$global:Profilefolder = ""
-$global:Homefolder = ""
+$global:Profilefolder = "\\cifsprofile\profile$"
+$global:Homefolder = "\\cifshome\home$"
 $global:Outfile = $pwd
 $global:Confpath = $env:APPDATA += "\Powershell Toolkit\"
 
 # SCCM
 $global:SCCMEnabled = "true"
-$global:SiteName = ""
-$global:SCCMServer = ""
+$global:SiteName = "V02"
+$global:SCCMServer = "srv-sccm15.kt.ur.ch"
 $global:SCCMNameSpace = "root\sms\site_$SiteName"
 $global:CmRCViewer = "$global:Programfiles\ConfigMgr\bin\i386\CmRcViewer.exe"
 
