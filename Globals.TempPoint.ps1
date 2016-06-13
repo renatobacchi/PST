@@ -278,7 +278,7 @@ function Add-RichTextBoxTitle
 	$richtextbox_output.AppendText($Fill)
 	$richtextbox_output.AppendText($Newline)
 }
-#endregion RichtextBoxTitle
+#endregion RichtextBoxWarn
 
 #region Add-RichtextBoxWarn
 function Add-RichTextBoxWarn
