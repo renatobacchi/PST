@@ -2,13 +2,12 @@
   <Version>1.0</Version>
   <FileID>cfba2739-092a-48d5-9ae9-9fc3160d1664</FileID>
   <OpenFolders>
-    <Folder>de-DE</Folder>
-    <Folder>en-EN</Folder>
     <Folder>de-CH</Folder>
-    <Folder>en-US</Folder>
   </OpenFolders>
   <OpenFiles>
     <File>Globals.ps1</File>
     <File>MainForm.psf</File>
+    <File>Options.psf</File>
+    <File>de-CH\Language.psd1</File>
   </OpenFiles>
 </ProjectState>

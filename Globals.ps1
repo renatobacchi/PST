@@ -5,8 +5,8 @@
 ############################################################################################
 
 # Snapins
-Add-PSSnapin Quest.ActiveRoles.ADManagement -ErrorAction SilentlyContinue
-Import-module grouppolicy -ErrorAction Continue
+Add-PSSnapin Quest.ActiveRoles.ADManagement -ErrorAction Continue
+Import-Module Grouppolicy -ErrorAction Continue
 Import-Module CimCmdlets -ErrorAction Continue
 Import-Module ActiveDirectory -ErrorAction Continue
 
@@ -22,11 +22,11 @@ $AuthorEmail = "renato.bacchi@ur.ch"
 # Text to show in the Status Bar when the form load
 $StatusBarStartUp = "$ApplicationName - $ApplicationVersion - (c) Renato Bacchi"
 
-# Title of the MainForm / Mainform Titel
+# MainForm Title
 $domain = $env:userdomain.ToUpper()
 $MainFormTitle = "$ApplicationName $ApplicationVersion - Last Update: $ApplicationLastUpdate - $domain\$env:username"
 
-# Font Styles / Schrift Stile
+# Font Styles
 $bold = New-Object Drawing.Font("Lucida Console", 8, [Drawing.Fontstyle]::Bold)
 $norm = New-Object Drawing.Font("Lucida Console", 8, [Drawing.Fontstyle]::Regular)
 $log = New-Object Drawing.Font("Lucida Console", 1, [Drawing.Fontstyle]::Regular)
@@ -38,14 +38,14 @@ $global:Fillchar = 178
 $Newline = "`n"
 $Newline2 = "`n`n"
 
-## Environment Variables / Umgebungsvariablen
+## Environment Variables
 if (Test-Path "C:\Program Files (x86)") { $global:Programfiles = "C:\Program Files (x86)" }
 else { $global:Programfiles = "C:\Program Files" }
 $cmd = "cmd.exe"
 
 # Folder / Ordner
-$global:Profilefolder = "\\cifsprofile\profile$"
-$global:Homefolder = "\\cifshome\home$"
+$global:Profilefolder = "\\cifsprofile\profile$\"
+$global:Homefolder = "\\cifshome\home$\"
 $global:Outfile = $pwd
 $global:Confpath = $env:APPDATA += "\Powershell Toolkit\"
 
@@ -68,15 +68,6 @@ $global:CheckComputerGroups = $lang.CheckComputerGroups
 $global:CheckConn = $lang.CheckConn
 $global:ComputerNotFound = $lang.ComputerNotFound
 $global:ComputerOfflineOrWrong = $lang.ComputerOfflineOrWrong
-$global:Cycle1 = $lang.Cycle1
-$global:Cycle2 = $lang.Cycle2
-$global:Cycle3 = $lang.Cycle3
-$global:Cycle4 = $lang.Cycle4
-$global:Cycle5 = $lang.Cycle5
-$global:Cycle6 = $lang.Cycle6
-$global:Cycle7 = $lang.Cycle7
-$global:Cycle8 = $lang.Cycle8
-$global:Cycle9 = $lang.Cycle9
 $global:DestinationComputer = $lang.DestinationComputer
 $global:DnsConf = $lang.DnsConf
 $global:DoYouWantToTransfer = $lang.DoYouWantToTransfer
