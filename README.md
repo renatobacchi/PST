@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PST
 Powershell-Toolkit V 3.0
 First public Version
@@ -18,6 +17,3 @@ programming. You will see this if you look at the code :-)
 I do all the programming with Powershell Studio and it helps me alot with the GUI.
 
 If anyone need help or has questions just check my blog -> www.renatobacchi.ch
-=======
-# LAFIT
->>>>>>> 595e4200451f9e5c7b79067d93b11f557b617c00
