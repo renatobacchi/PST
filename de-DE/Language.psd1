@@ -1,4 +1,4 @@
-#Language de-DE
+#Language de-CH
 # Hier werden alle Strings fuer die Sprache Deutsch definiert. 
 ConvertFrom-StringData @'
 button_folderrights = Ordnerrechte
@@ -17,13 +17,6 @@ configFolderExisting = Ordner $global:Confpath existiert bereits
 configFrom = Konfiguration von
 createConfigError = Fehler beim Erstellen der Standardkonfiguration in
 created = erstellt
-Cycle1 = Auswertungszyklus fuer Softwareupdatebereitstellung
-Cycle2 = Benutzerrichtlinienabruf und Auswertungszyklus
-Cycle3 = Computerrichtlininenabruf und Auswertungszyklus
-Cycle4 = Dateisammlungszyklus
-Cycle7 = Hardwareinventurzyklus
-Cycle8 = Softwareinventurzyklus
-Cycle9 = ueberpruefungszyklus fuer Softwareupdates
 DestinationComputer = Ziel-Computer
 DnsConf = DNS - Configuration
 DoYouWantToTransfer = Die Computergruppenuebertragung starten?
