@@ -10,5 +10,6 @@
   <OpenFiles>
     <File>Globals.ps1</File>
     <File>MainForm.psf</File>
+    <File>Options.psf</File>
   </OpenFiles>
 </ProjectState>
